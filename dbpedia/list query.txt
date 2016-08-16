@@ -1,0 +1,191 @@
+SELECT ?g ?s ?p ?o
+WHERE { 
+graph ?g {?s ?p ?o} . 
+?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> .
+FILTER regex(str(?o), "Indonesia")
+} LIMIT 1000
+
+SELECT ?g ?s ?p ?o
+WHERE { 
+graph ?g {?s ?p ?o} . 
+FILTER regex(str(?o), "Indonesia")
+} LIMIT 100
+
+
+select ?property ?value 
+where { 
+{
+   <http://dbpedia.org/resource/Rimba_Jimbaran_Bali> ?property ?value. 
+}
+union{
+    ?value ?property <http://dbpedia.org/resource/Rimba_Jimbaran_Bali>. 
+}
+}
+
+select ?cumbong ?sesuatu where { 
+   <http://dbpedia.org/resource/Rimba_Jimbaran_Bali> ?cumbong ?sesuatu . 
+}
+
+
+SELECT ?resource
+WHERE {
+   ?resource <http://airpedia.org/ontology/type_with_conf#10>  <http://dbpedia.org/ontology/Person> .
+}
+
+SELECT ?resource ?location ?subclass
+WHERE {
+   ?resource dbo:location <http://dbpedia.org/resource/Indonesia> .
+   ?resource dbo:location ?location .
+   ?resource rdf:type ?subclass
+}
+ <http://airpedia.org/ontology/type_with_conf#10>  dbpedia-owl:Organisation
+
+ SELECT ?resource ?location ?subclass
+WHERE {
+   ?resource dbo:locatedInArea <http://dbpedia.org/resource/Indonesia> .
+   ?resource dbo:locatedInArea ?location .
+   ?resource rdf:type ?subclass
+}
+
+SELECT ?resource ?location ?subclass
+WHERE {
+   ?resource dbo:deathPlace <http://dbpedia.org/resource/Indonesia> .
+   ?resource dbo:deathPlace ?location .
+   ?resource rdf:type ?subclass
+}
+
+SELECT ?resource ?location ?subclass
+WHERE {
+   ?resource dbo:birthPlace <http://dbpedia.org/resource/Indonesia> .
+   ?resource dbo:birthPlace ?location .
+   ?resource rdf:type ?subclass
+}
+
+SELECT ?resource ?location ?subclass
+WHERE {
+   ?resource dbp:subdivisionName <http://dbpedia.org/resource/Indonesia> .
+   ?resource dbp:subdivisionName ?location .
+   ?resource rdf:type ?subclass
+}
+
+SELECT ?resource ?location ?subclass
+WHERE {
+   ?resource dbp:restingPlace  <http://dbpedia.org/resource/Indonesia> .
+   ?resource dbp:restingPlace  ?location .
+   ?resource rdf:type ?subclass
+}
+
+SELECT ?resource ?location ?subclass
+WHERE {
+   ?resource dbp:residence  <http://dbpedia.org/resource/Indonesia> .
+   ?resource dbp:residence  ?location .
+   ?resource rdf:type ?subclass
+}
+
+SELECT ?resource ?location ?subclass
+WHERE {
+   ?resource dbp:regionServed  <http://dbpedia.org/resource/Indonesia> .
+   ?resource dbp:regionServed  ?location .
+   ?resource rdf:type ?subclass
+}
+
+SELECT ?resource ?location ?subclass
+WHERE {
+   ?resource dbp:locationCountry  <http://dbpedia.org/resource/Indonesia> .
+   ?resource dbp:locationCountry  ?location .
+   ?resource rdf:type ?subclass
+}
+
+SELECT ?resource 
+WHERE {
+   ?resource <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> .
+} LIMIT 100
+
+
+select distinct ?property where { 
+   ?property <http://www.w3.org/2000/01/rdf-schema#domain> 
+                          <http://dbpedia.org/ontology/Person> . }
+
+
+SELECT ?subClass ?predicate 
+WHERE {
+   ?subClass rdfs:subClassOf <http://dbpedia.org/ontology/Work> .
+   ?predicate rdfs:domain ?subClass
+}
+
+SELECT ?resource
+WHERE {
+   ?resource dbo:location <http://dbpedia.org/resource/Indonesia> .
+} LIMIT 100
+
+SELECT ?resource ?location
+WHERE {
+   ?resource <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place>.
+   ?resource dbo:location <http://dbpedia.org/resource/Indonesia> .
+} LIMIT 100
+
+SELECT ?resource ?location ?subClass
+WHERE {
+   ?resource <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place>.
+   ?resource dbo:location <http://dbpedia.org/resource/Indonesia> .
+   ?resource dbo:location ?location .
+   ?subClass rdfs:subClassOf <http://dbpedia.org/ontology/Place> .
+}
+
+SELECT ?resource ?location
+WHERE {
+   ?resource <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person>.
+   ?resource dbo:nationality <http://dbpedia.org/resource/Indonesia> .
+   ?resource dbo:nationality ?location .
+}
+
+SELECT ?resource ?location ?subclass
+WHERE {
+   ?resource <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person>.
+   ?resource dbo:nationality <http://dbpedia.org/resource/Indonesia> .
+   ?resource dbo:nationality ?location .
+   ?resource rdf:type ?subclass
+}
+SELECT *
+  WHERE
+    { 
+      ?company  a                                              <http://dbpedia.org/ontology/Organisation>  .
+      ?company  <http://dbpedia.org/ontology/foundationPlace>  <http://dbpedia.org/resource/California>    .
+      ?product  <http://dbpedia.org/ontology/developer>        ?company                                    .
+      ?product  a                                              <http://dbpedia.org/ontology/Software>
+    }
+	
+SELECT ?resource ?location ?subclass
+WHERE {
+   ?resource <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Organisation>.
+   ?resource dbo:foundationPlace <http://dbpedia.org/resource/Indonesia> .
+   ?resource dbo:foundationPlace ?location .
+   ?resource rdf:type ?subclass
+
+   
+SELECT ?resource 
+WHERE {
+   ?resource <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Organisation>.
+   ?resource dbo:foundationPlace <http://dbpedia.org/resource/Indonesia> .
+}
+
+
+======================================================================================================================================================================================
+SELECT ?resource
+WHERE
+{
+?resource <http://id.dbpedia.org/property/birthPlace> <http://id.dbpedia.org/resource/Indonesia> .
+}
+
+SELECT ?resource
+WHERE
+{
+?resource <http://id.dbpedia.org/property/location> <http://id.dbpedia.org/resource/Indonesia> .
+}
+
+SELECT distinct ?resource ?subclass
+WHERE {
+   ?resource <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Organisation>.
+   ?resource ?sesuatu <http://id.dbpedia.org/resource/Indonesia> .
+   ?resource <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?subclass .
+}

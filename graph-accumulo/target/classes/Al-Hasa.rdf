@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:rdf xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dbpedia-owl="http://dbpedia.org/ontology.ontology/" xmlns:dbpprop-id="http://id.dbpedia.org/property/" xmlns:ns6="http://www.w3.org/ns/prov#" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+ <rdf:description rdf:about="http://id.dbpedia.org/resource/Abu_Bakar_bin_Umar">
+  <owl:sameas rdf:resource="http://id.dbpedia.org/resource/Abu_Bakar_bin_Umar" />
+  <owl:sameas rdf:resource="http://ar.dbpedia.org/resource/أبو_بكر_بن_عامر" />
+  <rdfs:label xml:lang="id">
+   Abu Bakar bin Umar
+  </rdfs:label>
+  <rdfs:comment xml:lang="id">
+   Abu Bakar bin Umar adalah penguasa Murabitun. Ia ditunjuk sebagai Jendral Murabitun oleh pemimpinnya, Abdullah bin Yasin. Ia merebut Sūs dan ibukotanya, Aghmat di Maroko selatan tahun 1057, dan menjadi penguasa Murabitūn setelah kematian Abdullah bin Yasin dalam pertempuran dengan Berghwata tahun 1059.
+  </rdfs:comment>
+  <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Sejarah_Maroko" />
+  <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Murabitun" />
+  <dcterms:subject rdf:resource="http://id.dbpedia.org/resource/Kategori:Kematian_1087" />
+  <dbpedia-owl:wikipageid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">
+   267576
+  </dbpedia-owl:wikipageid>
+  <dbpedia-owl:wikipagerevisionid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">
+   6799911
+  </dbpedia-owl:wikipagerevisionid>
+  <dbpedia-owl:wikipagewikilink rdf:resource="http://id.dbpedia.org/resource/Kategori:Sejarah_Maroko" />
+  <dbpedia-owl:wikipagewikilink rdf:resource="http://id.dbpedia.org/resource/Al-Bayan_al-Mughrib" />
+  <dbpedia-owl:wikipagewikilink rdf:resource="http://id.dbpedia.org/resource/Kategori:Kematian_1087" />
+  <dbpedia-owl:wikipagewikilink rdf:resource="http://id.dbpedia.org/resource/Almoravids" />
+  <dbpedia-owl:wikipagewikilink rdf:resource="http://id.dbpedia.org/resource/Murabitun" />
+  <dbpedia-owl:wikipagewikilink rdf:resource="http://id.dbpedia.org/resource/Ibn_Idhari" />
+  <dbpedia-owl:wikipagewikilink rdf:resource="http://id.dbpedia.org/resource/Aghmat" />
+  <dbpedia-owl:wikipagewikilink rdf:resource="http://id.dbpedia.org/resource/Berghwata" />
+  <dbpedia-owl:wikipagewikilink rdf:resource="http://id.dbpedia.org/resource/Abdullah_bin_Yasin" />
+  <dbpedia-owl:wikipagewikilink rdf:resource="http://id.dbpedia.org/resource/1057" />
+  <dbpedia-owl:wikipagewikilink rdf:resource="http://id.dbpedia.org/resource/Sous" />
+  <dbpedia-owl:wikipagewikilink rdf:resource="http://id.dbpedia.org/resource/1087" />
+  <dbpedia-owl:wikipagewikilink rdf:resource="http://id.dbpedia.org/resource/Maroko" />
+  <dbpedia-owl:wikipagewikilink rdf:resource="http://id.dbpedia.org/resource/Kategori:Murabitun" />
+  <dbpedia-owl:wikipageinterlanguagelink rdf:resource="http://ar.dbpedia.org/resource/أبو_بكر_بن_عامر" />
+  <dbpedia-owl:abstract xml:lang="id">
+   Abu Bakar bin Umar adalah penguasa Murabitun. Ia ditunjuk sebagai Jendral Murabitun oleh pemimpinnya, Abdullah bin Yasin. Ia merebut Sūs dan ibukotanya, Aghmat di Maroko selatan tahun 1057, dan menjadi penguasa Murabitūn setelah kematian Abdullah bin Yasin dalam pertempuran dengan Berghwata tahun 1059.
+  </dbpedia-owl:abstract>
+  <ns6:wasderivedfrom rdf:resource="http://id.wikipedia.org/wiki/Abu_Bakar_bin_Umar?oldid=6799911" />
+  <foaf:isprimarytopicof rdf:resource="http://id.wikipedia.org/wiki/Abu_Bakar_bin_Umar" />
+ </rdf:description>
+ <rdf:description rdf:about="http://id.dbpedia.org/resource/Yusuf_bin_Tasyfin">
+  <dbpedia-owl:wikipagewikilink rdf:resource="http://id.dbpedia.org/resource/Abu_Bakar_bin_Umar" />
+  <dbpprop-id:before rdf:resource="http://id.dbpedia.org/resource/Abu_Bakar_bin_Umar" />
+ </rdf:description>
+ <rdf:description rdf:about="http://id.dbpedia.org/resource/Abu-Bakr_Bin-Umar">
+  <dbpedia-owl:wikipagewikilink rdf:resource="http://id.dbpedia.org/resource/Abu_Bakar_bin_Umar" />
+  <dbpedia-owl:wikipageredirects rdf:resource="http://id.dbpedia.org/resource/Abu_Bakar_bin_Umar" />
+ </rdf:description>
+ <rdf:description rdf:about="http://id.dbpedia.org/resource/Abu_Bakr_Bin_Umar">
+  <dbpedia-owl:wikipagewikilink rdf:resource="http://id.dbpedia.org/resource/Abu_Bakar_bin_Umar" />
+  <dbpedia-owl:wikipageredirects rdf:resource="http://id.dbpedia.org/resource/Abu_Bakar_bin_Umar" />
+ </rdf:description>
+ <rdf:description rdf:about="http://id.dbpedia.org/resource/Abu_bakar_bin_umar">
+  <dbpedia-owl:wikipagewikilink rdf:resource="http://id.dbpedia.org/resource/Abu_Bakar_bin_Umar" />
+  <dbpedia-owl:wikipageredirects rdf:resource="http://id.dbpedia.org/resource/Abu_Bakar_bin_Umar" />
+ </rdf:description>
+ <rdf:description rdf:about="http://id.wikipedia.org/wiki/Abu_Bakar_bin_Umar">
+  <foaf:primarytopic rdf:resource="http://id.dbpedia.org/resource/Abu_Bakar_bin_Umar" />
+ </rdf:description>
+</rdf:rdf>

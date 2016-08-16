@@ -1,0 +1,21 @@
+import org.apache.spark.SparkContext
+import org.apache.spark.SparkContext._
+import org.apache.spark.SparkConf
+
+object SimpleApp {
+  def main(args: Array[String]) {
+    val logFile = "tb_articles_small.txt" // Should be some file on your system
+    val conf = new SparkConf().setAppName("Riska Coba")
+    val sc = new SparkContext(conf)
+    val logData = sc.textFile(logFile, 2).cache()
+    val numAs = logData.filter(line => line.contains("Apa")).count()
+    val numBs = logData.filter(line => line.contains("b")).count()
+    println("Lines with Apa: %s, Lines with b: %s".format(numAs, numBs))
+  }
+}
+
+spark-submit \
+  --class "SimpleApp" \
+  --master local[4] \
+  
+  spark-submit --class Spark.SimpleApp cobaspark.jar 
