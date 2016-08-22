@@ -96,14 +96,15 @@ public class UpdateRandom {
 
                 switch (doing) {
                     case 0: {
-                        vnama.getProperties().addProperty(new SimpleProperty("name.posgre_dbdevgis_administrasidesaindonesia2", name.toLowerCase().replace(",", "\\c")));
-                        vnama.getProperties().addProperty(new SimpleProperty("geom.posgre_dbdevgis_administrasikabindonesia", polygon.toLowerCase().replace(",", "\\c")));
+                        vnama.getProperties().addProperty(new SimpleProperty("name.posgre_dbdevgis_admbaru", name.toLowerCase().replace(",", "\\c")));
+                        vnama.getProperties().addProperty(new SimpleProperty("geom.posgre_dbdevgis_admbaru", polygon.toLowerCase().replace(",", "\\c")));
 
-                        vkelid.getProperties().addProperty(new SimpleProperty("name.posgre_dbdevgis_administrasidesaindonesia2", name.toLowerCase().replace(",","\\c")));
-                        vkelid.getProperties().addProperty(new SimpleProperty("id.posgre_dbdevgis_administrasidesaindonesia2",id.replace(",", "\\c")));
-                        vkelid.getProperties().addProperty(new SimpleProperty("level.posgre_dbdevgis_administrasidesaindonesia2","desa"));
-                        vkelid.getProperties().addProperty(new SimpleProperty("geom.posgre_dbdevgis_administrasikabindonesia", polygon.toLowerCase().replace(",", "\\c")));
+                        vkelid.getProperties().addProperty(new SimpleProperty("name.posgre_dbdevgis_admbaru", name.toLowerCase().replace(",","\\c")));
+                        vkelid.getProperties().addProperty(new SimpleProperty("id.posgre_dbdevgis_admbaru",id.replace(",", "\\c")));
+                        vkelid.getProperties().addProperty(new SimpleProperty("level.posgre_dbdevgis_admbaru","desa"));
+                        vkelid.getProperties().addProperty(new SimpleProperty("geom.posgre_dbdevgis_admbaru", polygon.toLowerCase().replace(",", "\\c")));
 
+                        logger.info(name+" == "+id);
                         /*vkec.getProperties().addProperty(new SimpleProperty("name.posgre_dbdevgis_administrasidesaindonesia2", kec.toLowerCase().replace(",","\\c")));
                         vkab.getProperties().addProperty(new SimpleProperty("name.posgre_dbdevgis_administrasidesaindonesia2", kab.toLowerCase().replace(",","\\c")));
                         vprov.getProperties().addProperty(new SimpleProperty("name.posgre_dbdevgis_administrasidesaindonesia2", prov.toLowerCase().replace(",","\\c")));*/

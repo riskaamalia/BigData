@@ -82,22 +82,23 @@ public class UpdateKab {
                 vkab =graph.createVertex("location",id.replace(",","\\c")/*+"_dbdevgis"*//*+"_"+timestamp*/);
                 vprov = new Vertex("location",prov.replace(",","\\c")/*+"_dbdevgis"*//*+"_"+timestamp*/);
 //                vpolygon = graph.createVertex("geom",polygon.toLowerCase().replace(",","\\c")+"_dbdevgis"/*+"_"+timestamp*/);
-                System.out.println("========="+vnama.getId());
+//                System.out.println("========="+vnama.getId());
 
                 switch (doing) {
                     case 0: {
-                        vnama.getProperties().addProperty(new SimpleProperty("name.posgre_dbdevgis_administrasikabindonesia", name.toLowerCase().replace(",", "\\c")));
-                        vnama.getProperties().addProperty(new SimpleProperty("geom.posgre_dbdevgis_administrasikabindonesia", polygon.toLowerCase().replace(",", "\\c")));
-                        vkab.getProperties().addProperty(new SimpleProperty("id.posgre_dbdevgis_administrasikecindonesia2", id.toLowerCase().replace(",","\\c")));
-                        vkab.getProperties().addProperty(new SimpleProperty("name.posgre_dbdevgis_administrasikecindonesia2", name.toLowerCase().replace(",", "\\c")));
-                        vkab.getProperties().addProperty(new SimpleProperty("level.posgre_dbdevgis_administrasikecindonesia2", "kabupaten"));
-                        vkab.getProperties().addProperty(new SimpleProperty("geom.posgre_dbdevgis_administrasikabindonesia", polygon.toLowerCase().replace(",", "\\c")));
+                        vnama.getProperties().addProperty(new SimpleProperty("name.posgre_dbdevgis_admbaru", name.toLowerCase().replace(",", "\\c")));
+                        vnama.getProperties().addProperty(new SimpleProperty("geom.posgre_dbdevgis_admbaru", polygon.toLowerCase().replace(",", "\\c")));
+                        vkab.getProperties().addProperty(new SimpleProperty("id.posgre_dbdevgis_admbaru", id.toLowerCase().replace(",","\\c")));
+                        vkab.getProperties().addProperty(new SimpleProperty("name.posgre_dbdevgis_admbaru", name.toLowerCase().replace(",", "\\c")));
+                        vkab.getProperties().addProperty(new SimpleProperty("level.posgre_dbdevgis_admbaru", "kabupaten"));
+                        vkab.getProperties().addProperty(new SimpleProperty("geom.posgre_dbdevgis_admbaru", polygon.toLowerCase().replace(",", "\\c")));
 //                        vpolygon.getProperties().addProperty(new SimpleProperty("name.posgre_dbdevgis_administrasikabindonesia", polygon.toLowerCase().replace(",","\\c")));
                        /* graph.createEdge(vnama,vpolygon,"haspolygon").getProperties().
                                 addProperty(new SimpleProperty("haspolygon.posgre_dbdevgis_administrasikabindonesia", "haspolygon"));
                         graph.createEdge(vpolygon,vnama,"polygonof").getProperties().
                                 addProperty(new SimpleProperty("polygonof.posgre_dbdevgis_administrasikabindonesia", "polygonof"));*/
                         //vkab
+//                        logger.info(name+" == "+id);
                         graph.createEdge(vnama,vkab,"haslocation").getProperties().
                                 addProperty(new SimpleProperty("haslocation.posgre_dbdevgis_administrasikabindonesia", "haslocation"));
                         graph.createEdge(vkab,vnama,"locationof").getProperties().

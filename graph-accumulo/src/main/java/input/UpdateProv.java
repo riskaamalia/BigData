@@ -93,12 +93,12 @@ public class UpdateProv {
 
                 switch (doing) {
                     case 0: {
-                        vnama.getProperties().addProperty(new SimpleProperty("name.posgre_dbdevgis_administrasiprovindonesia", name.toLowerCase().replace(",", "\\c")));
-                        vnama.getProperties().addProperty(new SimpleProperty("geom.posgre_dbdevgis_administrasikabindonesia", polygon.toLowerCase().replace(",", "\\c")));
-                        vprov.getProperties().addProperty(new SimpleProperty("id.posgre_dbdevgis_administrasikecindonesia2", id.toLowerCase().replace(",","\\c")));
-                        vprov.getProperties().addProperty(new SimpleProperty("name.posgre_dbdevgis_administrasikecindonesia2", name.toLowerCase().replace(",", "\\c")));
-                        vprov.getProperties().addProperty(new SimpleProperty("level.posgre_dbdevgis_administrasikecindonesia2", "provinsi"));
-                        vprov.getProperties().addProperty(new SimpleProperty("geom.posgre_dbdevgis_administrasikabindonesia", polygon.toLowerCase().replace(",", "\\c")));
+                        vnama.getProperties().addProperty(new SimpleProperty("name.posgre_dbdevgis_admbaru", name.toLowerCase().replace(",", "\\c")));
+                        vnama.getProperties().addProperty(new SimpleProperty("geom.posgre_dbdevgis_admbaru", polygon.toLowerCase().replace(",", "\\c")));
+                        vprov.getProperties().addProperty(new SimpleProperty("id.posgre_dbdevgis_admbaru", id.toLowerCase().replace(",","\\c")));
+                        vprov.getProperties().addProperty(new SimpleProperty("name.posgre_dbdevgis_admbaru", name.toLowerCase().replace(",", "\\c")));
+                        vprov.getProperties().addProperty(new SimpleProperty("level.posgre_dbdevgis_admbaru", "provinsi"));
+                        vprov.getProperties().addProperty(new SimpleProperty("geom.posgre_dbdevgis_admbaru", polygon.toLowerCase().replace(",", "\\c")));
                         /*vpolygon.getProperties().addProperty(new SimpleProperty("name.posgre_dbdevgis_administrasiprovindonesia", polygon.toLowerCase().replace(",","\\c")));*/
                         /*graph.createEdge(vnama,vpolygon,"haspolygon").getProperties().
                                 addProperty(new SimpleProperty("haspolygon.posgre_dbdevgis_administrasiprovindonesia", "haspolygon"));

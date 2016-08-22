@@ -92,12 +92,12 @@ public class UpdateKec {
 
                 switch (doing) {
                     case 0: {
-                        vnama.getProperties().addProperty(new SimpleProperty("name.posgre_dbdevgis_administrasikecindonesia2", name.toLowerCase().replace(",", "\\c")));
-                        vnama.getProperties().addProperty(new SimpleProperty("geom.posgre_dbdevgis_administrasikecindonesia2", polygon.toLowerCase().replace(",", "\\c")));
-                        vkec.getProperties().addProperty(new SimpleProperty("id.posgre_dbdevgis_administrasikecindonesia2", id.toLowerCase().replace(",","\\c")));
-                        vkec.getProperties().addProperty(new SimpleProperty("name.posgre_dbdevgis_administrasikecindonesia2", name.toLowerCase().replace(",", "\\c")));
-                        vkec.getProperties().addProperty(new SimpleProperty("level.posgre_dbdevgis_administrasikecindonesia2", "kecamatan"));
-                        vkec.getProperties().addProperty(new SimpleProperty("geom.posgre_dbdevgis_administrasikecindonesia2", polygon.toLowerCase().replace(",", "\\c")));
+                        vnama.getProperties().addProperty(new SimpleProperty("name.posgre_dbdevgis_admbaru", name.toLowerCase().replace(",", "\\c")));
+                        vnama.getProperties().addProperty(new SimpleProperty("geom.posgre_dbdevgis_admbaru", polygon.toLowerCase().replace(",", "\\c")));
+                        vkec.getProperties().addProperty(new SimpleProperty("id.posgre_dbdevgis_admbaru", id.toLowerCase().replace(",","\\c")));
+                        vkec.getProperties().addProperty(new SimpleProperty("name.posgre_dbdevgis_admbaru", name.toLowerCase().replace(",", "\\c")));
+                        vkec.getProperties().addProperty(new SimpleProperty("level.posgre_dbdevgis_admbaru", "kecamatan"));
+                        vkec.getProperties().addProperty(new SimpleProperty("geom.posgre_dbdevgis_admbaru", polygon.toLowerCase().replace(",", "\\c")));
                        /* vkab.getProperties().addProperty(new SimpleProperty("name.posgre_dbdevgis_administrasikecindonesia2", kab.toLowerCase().replace(",", "\\c")));
                         vprov.getProperties().addProperty(new SimpleProperty("name.posgre_dbdevgis_administrasikecindonesia2", prov.toLowerCase().replace(",", "\\c")));
                        *//* vpolygon.getProperties().addProperty(new SimpleProperty("name.posgre_dbdevgis_administrasikecindonesia2", polygon.toLowerCase().replace(",","\\c")));
@@ -105,7 +105,7 @@ public class UpdateKec {
                                 addProperty(new SimpleProperty("haspolygon.posgre_dbdevgis_administrasikecindonesia2", "haspolygon"));
                         graph.createEdge(vpolygon,vnama,"polygonof").getProperties().
                                 addProperty(new SimpleProperty("polygonof.posgre_dbdevgis_administrasikecindonesia2", "polygonof"));*/
-
+//                        logger.info(name+" == "+id);
                         //kec
                         graph.createEdge(vnama,vkec,"haslocation").getProperties().
                                 addProperty(new SimpleProperty("haslocation.posgre_dbdevgis_administrasikecindonesia2", "haslocation"));
