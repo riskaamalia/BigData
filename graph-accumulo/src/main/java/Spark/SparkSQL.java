@@ -24,7 +24,7 @@ public class SparkSQL implements Serializable {
 
     public static void main(String[] args) {
         JavaSparkContext sc =
-                new JavaSparkContext(new SparkConf().setAppName("SparkJdbcDs").setMaster(args[0]));
+                new JavaSparkContext(new SparkConf().setAppName("SparkJdbcDs").setMaster("local"));
 
         SQLContext sqlContext = new SQLContext(sc);
         //Data source options

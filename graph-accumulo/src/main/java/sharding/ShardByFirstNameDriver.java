@@ -1,7 +1,6 @@
 package sharding;
 
 import org.apache.accumulo.core.client.*;
-import org.apache.accumulo.core.client.mock.MockInstance;
 import org.apache.accumulo.core.client.security.tokens.PasswordToken;
 import org.apache.accumulo.core.data.Key;
 import org.apache.accumulo.core.data.Mutation;
@@ -46,19 +45,19 @@ public class ShardByFirstNameDriver {
     }
 
     private void process() throws AccumuloSecurityException, AccumuloException, TableExistsException, TableNotFoundException {
-        String instanceName = "development";
-        String user = "root";
-        String password = "";
-        String tableName = "TABLEA";
+        String instanceName = "accumulo";
+        String zooServers = "tanjungbenoa:2181, derawan:2181, giliair:2181, rajaampat:2181, wakatobi:2181";
+        String user = "riska";
+        String password = "12345678";
+        String tableName = "sharding1";
+
+        Instance mock = new ZooKeeperInstance(instanceName, zooServers);
+        Connector connector = mock.getConnector(user, new PasswordToken(password));
+//        connector.tableOperations().create(tableName);
+        BatchWriterConfig config = new BatchWriterConfig();
+        config.setMaxMemory(10000);
         String splitRegex = "\\W+";
         int partitionCount = 10;
-
-        Instance mock = new MockInstance(instanceName);
-        Connector connector = mock.getConnector(user, new PasswordToken(password));
-        connector.tableOperations().create(tableName);
-
-        // Use the default values for configuring a BatchWriter.
-        BatchWriterConfig config = new BatchWriterConfig();
 
         BatchWriter bw = connector.createBatchWriter(tableName, config);
         index(partitionCount, new Text("D1"), "Now is the time for all men to come to the aid of thier country.", splitRegex, bw);

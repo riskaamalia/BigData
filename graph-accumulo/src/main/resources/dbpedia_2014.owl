@@ -1362,8 +1362,8 @@
     <rdfs:label xml:lang="en">fashion</rdfs:label>
     <rdfs:label xml:lang="nl">mode</rdfs:label>
     <rdfs:label xml:lang="el">&#x3BC;&#x3CC;&#x3B4;&#x3B1;</rdfs:label>
-    <rdfs:comment xml:lang="en">A type or code of dressing, according to the standards of the time or individual design.</rdfs:comment>
-    <rdfs:comment xml:lang="nl">Een stijl of code voor kleding, bepaald door de voorkeursstijl van een tijdperk of door individuele ontwerpers.</rdfs:comment>
+    <rdfs:comment xml:lang="en">A type or kata.code of dressing, according to the standards of the time or individual design.</rdfs:comment>
+    <rdfs:comment xml:lang="nl">Een stijl of kata.code voor kleding, bepaald door de voorkeursstijl van een tijdperk of door individuele ontwerpers.</rdfs:comment>
     <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/TopicalConcept"/>
     <prov:wasDerivedFrom rdf:resource="http://mappings.dbpedia.org/index.php/OntologyClass:Fashion"/>
   </owl:Class>
@@ -7201,7 +7201,7 @@
   </owl:ObjectProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/dutchCOROPCode">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">Dutch COROP code</rdfs:label>
+    <rdfs:label xml:lang="en">Dutch COROP kata.code</rdfs:label>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Region"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <prov:wasDerivedFrom rdf:resource="http://mappings.dbpedia.org/index.php/OntologyProperty:dutchCOROPCode"/>
@@ -7316,7 +7316,7 @@
   </owl:ObjectProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/gnisCode">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">gnis code</rdfs:label>
+    <rdfs:label xml:lang="en">gnis kata.code</rdfs:label>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/PopulatedPlace"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <prov:wasDerivedFrom rdf:resource="http://mappings.dbpedia.org/index.php/OntologyProperty:gnisCode"/>
@@ -7367,7 +7367,7 @@
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/schoolCode">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">school code</rdfs:label>
+    <rdfs:label xml:lang="en">school kata.code</rdfs:label>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/School"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <prov:wasDerivedFrom rdf:resource="http://mappings.dbpedia.org/index.php/OntologyProperty:schoolCode"/>
@@ -7735,10 +7735,10 @@
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/codeBook">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">code book</rdfs:label>
+    <rdfs:label xml:lang="en">kata.code book</rdfs:label>
     <rdfs:label xml:lang="de">Gesetzbuch</rdfs:label>
     <rdfs:label xml:lang="nl">wetboek</rdfs:label>
-    <rdfs:comment xml:lang="en">code book or statute book referred to in this legal case</rdfs:comment>
+    <rdfs:comment xml:lang="en">kata.code book or statute book referred to in this legal case</rdfs:comment>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/LegalCase"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <prov:wasDerivedFrom rdf:resource="http://mappings.dbpedia.org/index.php/OntologyProperty:codeBook"/>
@@ -8109,7 +8109,7 @@
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/codeMemorial">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
     <rdfs:label xml:lang="en">memorial ID number</rdfs:label>
-    <rdfs:label xml:lang="nl">code gedenkteken</rdfs:label>
+    <rdfs:label xml:lang="nl">kata.code gedenkteken</rdfs:label>
     <rdfs:comment xml:lang="en">Identifier for monuments of the Memorial type</rdfs:comment>
     <rdfs:comment xml:lang="nl">Code oorlogsmonument of ander gedenkteken</rdfs:comment>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Memorial"/>
@@ -8740,7 +8740,7 @@
   </owl:ObjectProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/communityIsoCode">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">iso code of a community</rdfs:label>
+    <rdfs:label xml:lang="en">iso kata.code of a community</rdfs:label>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/PopulatedPlace"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <rdfs:subPropertyOf rdf:resource="http://dbpedia.org/ontology/isoCode"/>
@@ -9222,7 +9222,7 @@
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/departmentCode">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">code of the department</rdfs:label>
+    <rdfs:label xml:lang="en">kata.code of the department</rdfs:label>
     <rdfs:label xml:lang="nl">departementcode</rdfs:label>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Municipality"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -9381,9 +9381,9 @@
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/colourHexCode">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">colour hex code</rdfs:label>
+    <rdfs:label xml:lang="en">colour hex kata.code</rdfs:label>
     <rdfs:label xml:lang="de">Farben Hex Code</rdfs:label>
-    <rdfs:comment xml:lang="en">A colour represented by its hex code (e.g.: #FF0000 or #40E0D0).</rdfs:comment>
+    <rdfs:comment xml:lang="en">A colour represented by its hex kata.code (e.g.: #FF0000 or #40E0D0).</rdfs:comment>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <prov:wasDerivedFrom rdf:resource="http://mappings.dbpedia.org/index.php/OntologyProperty:colourHexCode"/>
   </owl:DatatypeProperty>
@@ -9506,9 +9506,9 @@
   </owl:ObjectProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/codeLandRegistry">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">code land registry</rdfs:label>
+    <rdfs:label xml:lang="en">kata.code land registry</rdfs:label>
     <rdfs:label xml:lang="nl">kadastercode</rdfs:label>
-    <rdfs:comment xml:lang="en">Land Registry code designating a parcel of land</rdfs:comment>
+    <rdfs:comment xml:lang="en">Land Registry kata.code designating a parcel of land</rdfs:comment>
     <rdfs:comment xml:lang="nl">Kadastercode voor een perceel</rdfs:comment>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Place"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -10099,7 +10099,7 @@
   </owl:ObjectProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/ofsCode">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">ofs code of a settlement</rdfs:label>
+    <rdfs:label xml:lang="en">ofs kata.code of a settlement</rdfs:label>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Settlement"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <rdfs:subPropertyOf rdf:resource="http://dbpedia.org/ontology/isoCode"/>
@@ -10827,7 +10827,7 @@
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/icaoAirlineCode">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">ICAO code</rdfs:label>
+    <rdfs:label xml:lang="en">ICAO kata.code</rdfs:label>
     <rdfs:comment xml:lang="en">ICAO designation for airline companies</rdfs:comment>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Airline"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -10977,13 +10977,13 @@
   </owl:ObjectProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/codeMunicipalMonument">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">monument code (municipal)</rdfs:label>
+    <rdfs:label xml:lang="en">monument kata.code (municipal)</rdfs:label>
     <rdfs:label xml:lang="nl">monumentcode gemeentelijke monumenten</rdfs:label>
     <rdfs:comment xml:lang="en">Code assigned to (Dutch) monuments at the municipal level, deemed to be of local value</rdfs:comment>
     <rdfs:comment xml:lang="nl">Code toegewezen aan monumenten die op gemeenteniveau onder bescherming geplaatst zijn</rdfs:comment>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Place"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    <rdfs:subPropertyOf rdf:resource="http://dbpedia.org/ontology/code"/>
+    <rdfs:subPropertyOf rdf:resource="http://dbpedia.org/ontology/kata.code"/>
     <prov:wasDerivedFrom rdf:resource="http://mappings.dbpedia.org/index.php/OntologyProperty:codeMunicipalMonument"/>
   </owl:DatatypeProperty>
   <owl:ObjectProperty rdf:about="http://dbpedia.org/ontology/wikiPageRevisionLink">
@@ -11278,10 +11278,10 @@
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
     <rdfs:label xml:lang="de">Stationsabk&#xFC;rzung</rdfs:label>
     <rdfs:label xml:lang="sr">&#x43A;&#x43E;&#x434; &#x441;&#x442;&#x430;&#x43D;&#x438;&#x446;&#x435;</rdfs:label>
-    <rdfs:label xml:lang="en">agency station code</rdfs:label>
+    <rdfs:label xml:lang="en">agency station kata.code</rdfs:label>
     <rdfs:label xml:lang="nl">stationscode</rdfs:label>
     <rdfs:label xml:lang="el">&#x3BA;&#x3C9;&#x3B4;&#x3B9;&#x3BA;&#x3CC;&#x3C2; &#x3C0;&#x3C1;&#x3B1;&#x3BA;&#x3C4;&#x3BF;&#x3C1;&#x3B5;&#x3AF;&#x3BF;&#x3C5;</rdfs:label>
-    <rdfs:comment xml:lang="en">Agency station code (used on tickets/reservations, etc.).</rdfs:comment>
+    <rdfs:comment xml:lang="en">Agency station kata.code (used on tickets/reservations, etc.).</rdfs:comment>
     <rdfs:comment xml:lang="el">&#x39A;&#x3C9;&#x3B4;&#x3B9;&#x3BA;&#x3CC;&#x3C2; &#x3C0;&#x3C1;&#x3B1;&#x3BA;&#x3C4;&#x3BF;&#x3C1;&#x3B5;&#x3AF;&#x3BF;&#x3C5; (&#x3C7;&#x3C1;&#x3B7;&#x3C3;&#x3B9;&#x3BC;&#x3BF;&#x3C0;&#x3BF;&#x3B9;&#x3B5;&#x3AF;&#x3C4;&#x3B1;&#x3B9; &#x3C3;&#x3B5; &#x3B5;&#x3B9;&#x3C3;&#x3B9;&#x3C4;&#x3AE;&#x3C1;&#x3B9;&#x3B1;/&#x3BA;&#x3C1;&#x3B1;&#x3C4;&#x3AE;&#x3C3;&#x3B5;&#x3B9;&#x3C2;,&#x3BA;&#x3C4;&#x3BB;.).</rdfs:comment>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Station"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -12043,7 +12043,7 @@
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/reportingMark">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
     <rdfs:label xml:lang="en">reporting mark</rdfs:label>
-    <rdfs:comment xml:lang="en">A reporting mark is a two-, three-, or four-letter alphabetic code used to identify owners or lessees of rolling stock and other equipment used on the North American railroad network.</rdfs:comment>
+    <rdfs:comment xml:lang="en">A reporting mark is a two-, three-, or four-letter alphabetic kata.code used to identify owners or lessees of rolling stock and other equipment used on the North American railroad network.</rdfs:comment>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/PublicTransitSystem"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <prov:wasDerivedFrom rdf:resource="http://mappings.dbpedia.org/index.php/OntologyProperty:reportingMark"/>
@@ -12083,8 +12083,8 @@
   </owl:ObjectProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/millsCodeNLVerdwenen">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">mill dissapeared code NL</rdfs:label>
-    <rdfs:label xml:lang="nl">verdwenen molen code NL</rdfs:label>
+    <rdfs:label xml:lang="en">mill dissapeared kata.code NL</rdfs:label>
+    <rdfs:label xml:lang="nl">verdwenen molen kata.code NL</rdfs:label>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Mill"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <prov:wasDerivedFrom rdf:resource="http://mappings.dbpedia.org/index.php/OntologyProperty:millsCodeNLVerdwenen"/>
@@ -12532,7 +12532,7 @@
   </owl:ObjectProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/okatoCode">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">okato code</rdfs:label>
+    <rdfs:label xml:lang="en">okato kata.code</rdfs:label>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/PopulatedPlace"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <prov:wasDerivedFrom rdf:resource="http://mappings.dbpedia.org/index.php/OntologyProperty:okatoCode"/>
@@ -12572,13 +12572,13 @@
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/codeNationalMonument">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">monument code (national)</rdfs:label>
+    <rdfs:label xml:lang="en">monument kata.code (national)</rdfs:label>
     <rdfs:label xml:lang="nl">monumentcode rijksmonumenten</rdfs:label>
     <rdfs:comment xml:lang="en">Code assigned to (Dutch) monuments at the national level, deemed to be of national value</rdfs:comment>
     <rdfs:comment xml:lang="nl">Code toegewezen aan (Nederlandse) monumenten, vallend onder bescherming op rijksniveau</rdfs:comment>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Place"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    <rdfs:subPropertyOf rdf:resource="http://dbpedia.org/ontology/code"/>
+    <rdfs:subPropertyOf rdf:resource="http://dbpedia.org/ontology/kata.code"/>
     <prov:wasDerivedFrom rdf:resource="http://mappings.dbpedia.org/index.php/OntologyProperty:codeNationalMonument"/>
   </owl:DatatypeProperty>
   <owl:ObjectProperty rdf:about="http://dbpedia.org/ontology/shipCrew">
@@ -12847,7 +12847,7 @@
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/iataAirlineCode">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">IATA code</rdfs:label>
+    <rdfs:label xml:lang="en">IATA kata.code</rdfs:label>
     <rdfs:comment xml:lang="en">IATA designation for airline companies</rdfs:comment>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Airline"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -13010,8 +13010,8 @@
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/dbnlCodeDutch">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">Digital Library code NL</rdfs:label>
-    <rdfs:label xml:lang="nl">DBNL code NL</rdfs:label>
+    <rdfs:label xml:lang="en">Digital Library kata.code NL</rdfs:label>
+    <rdfs:label xml:lang="nl">DBNL kata.code NL</rdfs:label>
     <rdfs:comment xml:lang="en">identifier in Dutch digital library (dbnl)</rdfs:comment>
     <rdfs:comment xml:lang="nl">ID in Digitale Bibliotheek voor de Nederlandse Letteren (dbnl)</rdfs:comment>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Writer"/>
@@ -13103,7 +13103,7 @@
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/iso31661Code">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">ISO 3166-1 code</rdfs:label>
+    <rdfs:label xml:lang="en">ISO 3166-1 kata.code</rdfs:label>
     <rdfs:comment xml:lang="en">defines codes for the names of countries, dependent territories, and special areas of geographical interest</rdfs:comment>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Place"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -13790,9 +13790,9 @@
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/municipalityCode">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">municipality code</rdfs:label>
+    <rdfs:label xml:lang="en">municipality kata.code</rdfs:label>
     <rdfs:label xml:lang="de">Gemeindecode</rdfs:label>
-    <rdfs:label xml:lang="nl">gemeente-code</rdfs:label>
+    <rdfs:label xml:lang="nl">gemeente-kata.code</rdfs:label>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Place"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <prov:wasDerivedFrom rdf:resource="http://mappings.dbpedia.org/index.php/OntologyProperty:municipalityCode"/>
@@ -13835,7 +13835,7 @@
   </owl:ObjectProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/istat">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">code istat</rdfs:label>
+    <rdfs:label xml:lang="en">kata.code istat</rdfs:label>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/PopulatedPlace"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <prov:wasDerivedFrom rdf:resource="http://mappings.dbpedia.org/index.php/OntologyProperty:istat"/>
@@ -14196,7 +14196,7 @@
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/isoCodeRegion">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">ISO region code</rdfs:label>
+    <rdfs:label xml:lang="en">ISO region kata.code</rdfs:label>
     <rdfs:label xml:lang="de">ISO-L&#xE4;ndercode</rdfs:label>
     <rdfs:label xml:lang="nl">ISO regiocode</rdfs:label>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Settlement"/>
@@ -14289,7 +14289,7 @@
   </owl:ObjectProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/unlcCode">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">unlc code</rdfs:label>
+    <rdfs:label xml:lang="en">unlc kata.code</rdfs:label>
     <rdfs:label xml:lang="sr">UNLC &#x43A;&#x43E;&#x434;</rdfs:label>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/PopulatedPlace"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -15075,7 +15075,7 @@
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/languageCode">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">language code</rdfs:label>
+    <rdfs:label xml:lang="en">language kata.code</rdfs:label>
     <rdfs:label xml:lang="de">Sprachcode</rdfs:label>
     <rdfs:label xml:lang="pl">kod j&#x119;zykowy</rdfs:label>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Language"/>
@@ -15108,10 +15108,10 @@
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/millsCodeBE">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">mill code BE</rdfs:label>
-    <rdfs:label xml:lang="nl">molen code BE</rdfs:label>
-    <rdfs:comment xml:lang="en">mills code from the Belgian database on mills</rdfs:comment>
-    <rdfs:comment xml:lang="nl">unieke code voor molens in database www.molenechos.org</rdfs:comment>
+    <rdfs:label xml:lang="en">mill kata.code BE</rdfs:label>
+    <rdfs:label xml:lang="nl">molen kata.code BE</rdfs:label>
+    <rdfs:comment xml:lang="en">mills kata.code from the Belgian database on mills</rdfs:comment>
+    <rdfs:comment xml:lang="nl">unieke kata.code voor molens in database www.molenechos.org</rdfs:comment>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Mill"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <prov:wasDerivedFrom rdf:resource="http://mappings.dbpedia.org/index.php/OntologyProperty:millsCodeBE"/>
@@ -15856,7 +15856,7 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
     <rdfs:label xml:lang="de">Postleitzahl</rdfs:label>
     <rdfs:label xml:lang="sr">&#x41F;&#x43E;&#x448;&#x442;&#x430;&#x43D;&#x441;&#x43A;&#x438; &#x43A;&#x43E;&#x434;</rdfs:label>
-    <rdfs:label xml:lang="en">zip code</rdfs:label>
+    <rdfs:label xml:lang="en">zip kata.code</rdfs:label>
     <rdfs:label xml:lang="nl">postcode</rdfs:label>
     <rdfs:label xml:lang="el">&#x3C4;&#x3B1;&#x3C7;&#x3C5;&#x3B4;&#x3C1;&#x3BF;&#x3BC;&#x3B9;&#x3BA;&#x3CC;&#x3C2; &#x3BA;&#x3CE;&#x3B4;&#x3B9;&#x3BA;&#x3B1;&#x3C2;</rdfs:label>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/PopulatedPlace"/>
@@ -15905,7 +15905,7 @@
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/provinceIsoCode">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">iso code of a province</rdfs:label>
+    <rdfs:label xml:lang="en">iso kata.code of a province</rdfs:label>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/PopulatedPlace"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <rdfs:subPropertyOf rdf:resource="http://dbpedia.org/ontology/isoCode"/>
@@ -16180,10 +16180,10 @@
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/vehicleCode">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
     <rdfs:label xml:lang="de">KFZ-Kennzeichen</rdfs:label>
-    <rdfs:label xml:lang="en">vehicle code</rdfs:label>
+    <rdfs:label xml:lang="en">vehicle kata.code</rdfs:label>
     <rdfs:label xml:lang="sr">&#x43A;&#x43E;&#x434; &#x432;&#x43E;&#x437;&#x438;&#x43B;&#x430;</rdfs:label>
-    <rdfs:label xml:lang="nl">voertuig code</rdfs:label>
-    <rdfs:comment xml:lang="en">Region related vehicle code on the vehicle plates.</rdfs:comment>
+    <rdfs:label xml:lang="nl">voertuig kata.code</rdfs:label>
+    <rdfs:comment xml:lang="en">Region related vehicle kata.code on the vehicle plates.</rdfs:comment>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Place"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <prov:wasDerivedFrom rdf:resource="http://mappings.dbpedia.org/index.php/OntologyProperty:vehicleCode"/>
@@ -16476,7 +16476,7 @@
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/dutchMIPCode">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">monument code for the Monuments Inventory Project</rdfs:label>
+    <rdfs:label xml:lang="en">monument kata.code for the Monuments Inventory Project</rdfs:label>
     <rdfs:label xml:lang="nl">monumentcode voor het Monumenten Inventarisatie Project</rdfs:label>
     <rdfs:comment xml:lang="en">The Dutch MIP project was meant to take stock of all kinds of monuments</rdfs:comment>
     <rdfs:comment xml:lang="nl">Code voor alle soorten monumenten gebezigd door het MI-project</rdfs:comment>
@@ -16651,7 +16651,7 @@
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/fipsCode">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">fips code</rdfs:label>
+    <rdfs:label xml:lang="en">fips kata.code</rdfs:label>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/PopulatedPlace"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <prov:wasDerivedFrom rdf:resource="http://mappings.dbpedia.org/index.php/OntologyProperty:fipsCode"/>
@@ -17270,11 +17270,11 @@
   </owl:ObjectProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/alpsSoiusaCode">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">Alps SOIUSA code</rdfs:label>
+    <rdfs:label xml:lang="en">Alps SOIUSA kata.code</rdfs:label>
     <rdfs:label xml:lang="el">&#x3BA;&#x3CE;&#x3B4;&#x3B9;&#x3BA;&#x3B1;&#x3C2; SOIUSA &#x3C4;&#x3C9;&#x3BD; &#x3AC;&#x3BB;&#x3C0;&#x3B5;&#x3C9;&#x3BD;</rdfs:label>
     <rdfs:label xml:lang="it">codice SOIUSA</rdfs:label>
     <rdfs:label xml:lang="sr">&#x430;&#x43B;&#x43F;&#x441;&#x43A;&#x438; SOIUSA &#x43A;&#x43E;&#x434;</rdfs:label>
-    <rdfs:comment xml:lang="en">the Alps SOIUSA code corresponding to the mountain, according to the SOIUSA classification</rdfs:comment>
+    <rdfs:comment xml:lang="en">the Alps SOIUSA kata.code corresponding to the mountain, according to the SOIUSA classification</rdfs:comment>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Mountain"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <prov:wasDerivedFrom rdf:resource="http://mappings.dbpedia.org/index.php/OntologyProperty:alpsSoiusaCode"/>
@@ -17298,13 +17298,13 @@
   </owl:ObjectProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/codeProvincialMonument">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">monument code (provinciall)</rdfs:label>
+    <rdfs:label xml:lang="en">monument kata.code (provinciall)</rdfs:label>
     <rdfs:label xml:lang="nl">monumentcode provinciale monumenten</rdfs:label>
     <rdfs:comment xml:lang="en">Code assigned to (Dutch) monuments at the provincial level, mostly for monuments in the countryside, or for waterworks</rdfs:comment>
     <rdfs:comment xml:lang="nl">Code voor monumentenbescherming, in Nederland op provinciaal niveau. Meestal gebruikt voor agrarische monumenten of waterwerken</rdfs:comment>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Place"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    <rdfs:subPropertyOf rdf:resource="http://dbpedia.org/ontology/code"/>
+    <rdfs:subPropertyOf rdf:resource="http://dbpedia.org/ontology/kata.code"/>
     <prov:wasDerivedFrom rdf:resource="http://mappings.dbpedia.org/index.php/OntologyProperty:codeProvincialMonument"/>
   </owl:DatatypeProperty>
   <owl:ObjectProperty rdf:about="http://dbpedia.org/ontology/riverBranchOf">
@@ -17707,8 +17707,8 @@
   </owl:ObjectProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/iso6391Code">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">ISO 639-1 code</rdfs:label>
-    <rdfs:label xml:lang="nl">ISO 639-1 code</rdfs:label>
+    <rdfs:label xml:lang="en">ISO 639-1 kata.code</rdfs:label>
+    <rdfs:label xml:lang="nl">ISO 639-1 kata.code</rdfs:label>
     <rdfs:label xml:lang="pl">kod ISO 639-1</rdfs:label>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Language"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -17974,12 +17974,12 @@
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/postalCode">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
     <rdfs:label xml:lang="de">Postleitzahl</rdfs:label>
-    <rdfs:label xml:lang="fr">code postal</rdfs:label>
-    <rdfs:label xml:lang="en">postal code</rdfs:label>
+    <rdfs:label xml:lang="fr">kata.code postal</rdfs:label>
+    <rdfs:label xml:lang="en">postal kata.code</rdfs:label>
     <rdfs:label xml:lang="pt">c&#xF3;digo postal</rdfs:label>
     <rdfs:label xml:lang="nl">postcode</rdfs:label>
     <rdfs:label xml:lang="el">&#x3C4;&#x3B1;&#x3C7;&#x3C5;&#x3B4;&#x3C1;&#x3BF;&#x3BC;&#x3B9;&#x3BA;&#x3CC;&#x3C2; &#x3BA;&#x3CE;&#x3B4;&#x3B9;&#x3BA;&#x3B1;&#x3C2;</rdfs:label>
-    <rdfs:comment xml:lang="en">A postal code (known in various countries as a post code, postcode, or ZIP code) is a series of letters and/or digits appended to a postal address for the purpose of sorting mail.</rdfs:comment>
+    <rdfs:comment xml:lang="en">A postal kata.code (known in various countries as a post kata.code, postcode, or ZIP kata.code) is a series of letters and/or digits appended to a postal address for the purpose of sorting mail.</rdfs:comment>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/PopulatedPlace"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <prov:wasDerivedFrom rdf:resource="http://mappings.dbpedia.org/index.php/OntologyProperty:postalCode"/>
@@ -18010,14 +18010,14 @@
     <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person"/>
     <prov:wasDerivedFrom rdf:resource="http://mappings.dbpedia.org/index.php/OntologyProperty:headOfFamily"/>
   </owl:ObjectProperty>
-  <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/code">
+  <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/kata.code">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">code</rdfs:label>
+    <rdfs:label xml:lang="en">kata.code</rdfs:label>
     <rdfs:label xml:lang="el">&#x3BA;&#x3C9;&#x3B4;&#x3B9;&#x3BA;&#x3CC;&#x3C2;</rdfs:label>
     <rdfs:label xml:lang="de">Code</rdfs:label>
-    <rdfs:label xml:lang="nl">code</rdfs:label>
+    <rdfs:label xml:lang="nl">kata.code</rdfs:label>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    <prov:wasDerivedFrom rdf:resource="http://mappings.dbpedia.org/index.php/OntologyProperty:code"/>
+    <prov:wasDerivedFrom rdf:resource="http://mappings.dbpedia.org/index.php/OntologyProperty:kata.code"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/selectionPoint">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
@@ -18100,7 +18100,7 @@
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/coden">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
     <rdfs:label xml:lang="en">CODEN</rdfs:label>
-    <rdfs:comment xml:lang="en">CODEN is a six character, alphanumeric bibliographic code, that provides concise, unique and unambiguous identification of the titles of serials and non-serial publications from all subject areas.</rdfs:comment>
+    <rdfs:comment xml:lang="en">CODEN is a six character, alphanumeric bibliographic kata.code, that provides concise, unique and unambiguous identification of the titles of serials and non-serial publications from all subject areas.</rdfs:comment>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/WrittenWork"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <prov:wasDerivedFrom rdf:resource="http://mappings.dbpedia.org/index.php/OntologyProperty:coden"/>
@@ -18168,9 +18168,9 @@
   </owl:ObjectProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/inseeCode">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">INSEE code</rdfs:label>
-    <rdfs:label xml:lang="nl">INSEE-code</rdfs:label>
-    <rdfs:comment xml:lang="en">numerical indexing code used by the French National Institute for Statistics and Economic Studies (INSEE) to identify various entities</rdfs:comment>
+    <rdfs:label xml:lang="en">INSEE kata.code</rdfs:label>
+    <rdfs:label xml:lang="nl">INSEE-kata.code</rdfs:label>
+    <rdfs:comment xml:lang="en">numerical indexing kata.code used by the French National Institute for Statistics and Economic Studies (INSEE) to identify various entities</rdfs:comment>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Settlement"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
     <rdfs:subPropertyOf rdf:resource="http://dbpedia.org/ontology/codeSettlement"/>
@@ -18981,7 +18981,7 @@
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/isoCode">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">iso code of a place</rdfs:label>
+    <rdfs:label xml:lang="en">iso kata.code of a place</rdfs:label>
     <rdfs:label xml:lang="de">ISO-Code eines Ortes</rdfs:label>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Place"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -19393,8 +19393,8 @@
   </owl:ObjectProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/nutsCode">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">NUTS code</rdfs:label>
-    <rdfs:label xml:lang="nl">NUTS-code:</rdfs:label>
+    <rdfs:label xml:lang="en">NUTS kata.code</rdfs:label>
+    <rdfs:label xml:lang="nl">NUTS-kata.code:</rdfs:label>
     <rdfs:comment xml:lang="en">Nomenclature of Territorial Units for Statistics (NUTS) is a geocode  standard for referencing the subdivisions of countries  for statistical purposes. The standard is developed and regulated by the European Union, and thus only covers the member states of the EU in detail.</rdfs:comment>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Place"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -20913,7 +20913,7 @@
   </owl:ObjectProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/nflCode">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">nfl code</rdfs:label>
+    <rdfs:label xml:lang="en">nfl kata.code</rdfs:label>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Athlete"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <prov:wasDerivedFrom rdf:resource="http://mappings.dbpedia.org/index.php/OntologyProperty:nflCode"/>
@@ -20955,7 +20955,7 @@
   </owl:ObjectProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/landRegistryCode">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">land registry code</rdfs:label>
+    <rdfs:label xml:lang="en">land registry kata.code</rdfs:label>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/AlgerianSettlement"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <prov:wasDerivedFrom rdf:resource="http://mappings.dbpedia.org/index.php/OntologyProperty:landRegistryCode"/>
@@ -21042,9 +21042,9 @@
   </owl:DatatypeProperty>
   <owl:ObjectProperty rdf:about="http://dbpedia.org/ontology/terytCode">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">TERYT code</rdfs:label>
+    <rdfs:label xml:lang="en">TERYT kata.code</rdfs:label>
     <rdfs:label xml:lang="pl">kod TERYT</rdfs:label>
-    <rdfs:comment xml:lang="en">indexing code used by the Polish National Official Register of the Territorial Division of the Country (TERYT) to identify various entities</rdfs:comment>
+    <rdfs:comment xml:lang="en">indexing kata.code used by the Polish National Official Register of the Territorial Division of the Country (TERYT) to identify various entities</rdfs:comment>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/PopulatedPlace"/>
     <rdfs:subPropertyOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isClassifiedBy"/>
     <prov:wasDerivedFrom rdf:resource="http://mappings.dbpedia.org/index.php/OntologyProperty:terytCode"/>
@@ -21952,8 +21952,8 @@
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/dressCode">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">dress code</rdfs:label>
-    <rdfs:comment xml:lang="en">The recommended dress code for an establishment or event.</rdfs:comment>
+    <rdfs:label xml:lang="en">dress kata.code</rdfs:label>
+    <rdfs:comment xml:lang="en">The recommended dress kata.code for an establishment or event.</rdfs:comment>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Restaurant"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <prov:wasDerivedFrom rdf:resource="http://mappings.dbpedia.org/index.php/OntologyProperty:dressCode"/>
@@ -21993,8 +21993,8 @@
   </owl:DatatypeProperty>
   <owl:ObjectProperty rdf:about="http://dbpedia.org/ontology/silCode">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">SIL code</rdfs:label>
-    <rdfs:label xml:lang="nl">SIL-code</rdfs:label>
+    <rdfs:label xml:lang="en">SIL kata.code</rdfs:label>
+    <rdfs:label xml:lang="nl">SIL-kata.code</rdfs:label>
     <rdfs:label xml:lang="pl">kod SIL</rdfs:label>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Language"/>
     <rdfs:subPropertyOf rdf:resource="http://dbpedia.org/ontology/LanguageCode"/>
@@ -22143,7 +22143,7 @@
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
     <rdfs:label xml:lang="en">ISBN</rdfs:label>
     <rdfs:label xml:lang="nl">ISBN</rdfs:label>
-    <rdfs:comment xml:lang="en">The International Standard Book Number (ISBN) is a unique numeric commercial book identifier based upon the 9-digit Standard Book Numbering (SBN) code.</rdfs:comment>
+    <rdfs:comment xml:lang="en">The International Standard Book Number (ISBN) is a unique numeric commercial book identifier based upon the 9-digit Standard Book Numbering (SBN) kata.code.</rdfs:comment>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Book"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <owl:equivalentProperty rdf:resource="http://schema.org/isbn"/>
@@ -22522,8 +22522,8 @@
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://dbpedia.org/ontology/nisCode">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">NIS code</rdfs:label>
-    <rdfs:comment xml:lang="en">Indexing code used by the Belgium National Statistical Institute to identify populated places.</rdfs:comment>
+    <rdfs:label xml:lang="en">NIS kata.code</rdfs:label>
+    <rdfs:comment xml:lang="en">Indexing kata.code used by the Belgium National Statistical Institute to identify populated places.</rdfs:comment>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/PopulatedPlace"/>
     <rdfs:range rdf:resource="http://dbpedia.org/ontology/PopulatedPlace"/>
     <rdfs:subPropertyOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isClassifiedBy"/>
@@ -22899,8 +22899,8 @@
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/iso6393Code">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">ISO 639-3 code</rdfs:label>
-    <rdfs:label xml:lang="nl">ISO 639-3 code</rdfs:label>
+    <rdfs:label xml:lang="en">ISO 639-3 kata.code</rdfs:label>
+    <rdfs:label xml:lang="nl">ISO 639-3 kata.code</rdfs:label>
     <rdfs:label xml:lang="pl">kod ISO 639-3</rdfs:label>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Language"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -23311,7 +23311,7 @@
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/currencyCode">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">currency code</rdfs:label>
+    <rdfs:label xml:lang="en">currency kata.code</rdfs:label>
     <rdfs:label xml:lang="de">W&#xE4;hrungscode</rdfs:label>
     <rdfs:comment xml:lang="en">ISO 4217 currency designators.</rdfs:comment>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Place"/>
@@ -23375,7 +23375,7 @@
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
     <rdfs:label xml:lang="en">Amsterdam Code</rdfs:label>
     <rdfs:label xml:lang="sr">&#x410;&#x43C;&#x441;&#x442;&#x435;&#x440;&#x434;&#x430;&#x43C; &#x43A;&#x43E;&#x434;</rdfs:label>
-    <rdfs:label xml:lang="nl">Amsterdamse code</rdfs:label>
+    <rdfs:label xml:lang="nl">Amsterdamse kata.code</rdfs:label>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Municipality"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <prov:wasDerivedFrom rdf:resource="http://mappings.dbpedia.org/index.php/OntologyProperty:amsterdamCode"/>
@@ -23798,11 +23798,11 @@
   </owl:ObjectProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/codeStockExchange">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">code Stock Exchange</rdfs:label>
+    <rdfs:label xml:lang="en">kata.code Stock Exchange</rdfs:label>
     <rdfs:label xml:lang="nl">beurscode</rdfs:label>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Company"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    <rdfs:subPropertyOf rdf:resource="http://dbpedia.org/ontology/code"/>
+    <rdfs:subPropertyOf rdf:resource="http://dbpedia.org/ontology/kata.code"/>
     <prov:wasDerivedFrom rdf:resource="http://mappings.dbpedia.org/index.php/OntologyProperty:codeStockExchange"/>
   </owl:DatatypeProperty>
   <owl:ObjectProperty rdf:about="http://dbpedia.org/ontology/picture">
@@ -24304,7 +24304,7 @@
   </owl:ObjectProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/codeSettlement">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">settlement code</rdfs:label>
+    <rdfs:label xml:lang="en">settlement kata.code</rdfs:label>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Settlement"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <prov:wasDerivedFrom rdf:resource="http://mappings.dbpedia.org/index.php/OntologyProperty:codeSettlement"/>
@@ -24498,8 +24498,8 @@
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/iso6392Code">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">ISO 639-2 code</rdfs:label>
-    <rdfs:label xml:lang="nl">ISO 639-2 code</rdfs:label>
+    <rdfs:label xml:lang="en">ISO 639-2 kata.code</rdfs:label>
+    <rdfs:label xml:lang="nl">ISO 639-2 kata.code</rdfs:label>
     <rdfs:label xml:lang="pl">kod ISO 639-2</rdfs:label>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Language"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -24708,7 +24708,7 @@
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
     <rdfs:label xml:lang="en">legal article</rdfs:label>
     <rdfs:label xml:lang="nl">wetsartikel</rdfs:label>
-    <rdfs:comment xml:lang="en">article in code book or statute book referred to in this legal case</rdfs:comment>
+    <rdfs:comment xml:lang="en">article in kata.code book or statute book referred to in this legal case</rdfs:comment>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/LegalCase"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <prov:wasDerivedFrom rdf:resource="http://mappings.dbpedia.org/index.php/OntologyProperty:legalArticle"/>
@@ -24830,9 +24830,9 @@
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/fdaUniiCode">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">FDA UNII code</rdfs:label>
+    <rdfs:label xml:lang="en">FDA UNII kata.code</rdfs:label>
     <rdfs:label xml:lang="pt">c&#xF3;digo FDA UNII</rdfs:label>
-    <rdfs:comment xml:lang="en">FDA Unique Ingredient Identifier (UNII) code for a DBpedia Drug</rdfs:comment>
+    <rdfs:comment xml:lang="en">FDA Unique Ingredient Identifier (UNII) kata.code for a DBpedia Drug</rdfs:comment>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <prov:wasDerivedFrom rdf:resource="http://mappings.dbpedia.org/index.php/OntologyProperty:fdaUniiCode"/>
   </owl:DatatypeProperty>
@@ -25429,8 +25429,8 @@
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/ekatteCode">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">EKATTE code</rdfs:label>
-    <rdfs:comment xml:lang="en">Indexing code used by the Bulgarian National Statistical Institute to identify populated places</rdfs:comment>
+    <rdfs:label xml:lang="en">EKATTE kata.code</rdfs:label>
+    <rdfs:comment xml:lang="en">Indexing kata.code used by the Bulgarian National Statistical Institute to identify populated places</rdfs:comment>
     <rdfs:comment xml:lang="bg">&#x415;&#x434;&#x438;&#x43D;&#x435;&#x43D; &#x43A;&#x43B;&#x430;&#x441;&#x438;&#x444;&#x438;&#x43A;&#x430;&#x442;&#x43E;&#x440; &#x43D;&#x430; &#x430;&#x434;&#x43C;&#x438;&#x43D;&#x438;&#x441;&#x442;&#x440;&#x430;&#x442;&#x438;&#x432;&#x43D;&#x43E;-&#x442;&#x435;&#x440;&#x438;&#x442;&#x43E;&#x440;&#x438;&#x430;&#x43B;&#x43D;&#x438;&#x442;&#x435; &#x438; &#x442;&#x435;&#x440;&#x438;&#x442;&#x43E;&#x440;&#x438;&#x430;&#x43B;&#x43D;&#x438;&#x442;&#x435; &#x435;&#x434;&#x438;&#x43D;&#x438;&#x446;&#x438;</rdfs:comment>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/PopulatedPlace"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -25910,9 +25910,9 @@
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/awayColourHexCode">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">colour hex code of away jersey or its parts</rdfs:label>
+    <rdfs:label xml:lang="en">colour hex kata.code of away jersey or its parts</rdfs:label>
     <rdfs:label xml:lang="de">Farben Hex Code des Ausw&#xE4;rtstrikots oder Teile dieses</rdfs:label>
-    <rdfs:comment xml:lang="en">A colour represented by its hex code (e.g.: #FF0000 or #40E0D0).</rdfs:comment>
+    <rdfs:comment xml:lang="en">A colour represented by its hex kata.code (e.g.: #FF0000 or #40E0D0).</rdfs:comment>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <rdfs:subPropertyOf rdf:resource="http://dbpedia.org/ontology/colourHexCode"/>
     <prov:wasDerivedFrom rdf:resource="http://mappings.dbpedia.org/index.php/OntologyProperty:awayColourHexCode"/>
@@ -25927,9 +25927,9 @@
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/uciCode">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">UCI code</rdfs:label>
+    <rdfs:label xml:lang="en">UCI kata.code</rdfs:label>
     <rdfs:label xml:lang="it">codice UCI</rdfs:label>
-    <rdfs:comment xml:lang="en">Official UCI code for cycling teams</rdfs:comment>
+    <rdfs:comment xml:lang="en">Official UCI kata.code for cycling teams</rdfs:comment>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/CyclingTeam"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <prov:wasDerivedFrom rdf:resource="http://mappings.dbpedia.org/index.php/OntologyProperty:uciCode"/>
@@ -26739,9 +26739,9 @@
   </owl:ObjectProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/homeColourHexCode">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">colour hex code of home jersey or its parts</rdfs:label>
+    <rdfs:label xml:lang="en">colour hex kata.code of home jersey or its parts</rdfs:label>
     <rdfs:label xml:lang="de">Farben Hex Code des Heimtrikots oder Teile dieses</rdfs:label>
-    <rdfs:comment xml:lang="en">A colour represented by its hex code (e.g.: #FF0000 or #40E0D0).</rdfs:comment>
+    <rdfs:comment xml:lang="en">A colour represented by its hex kata.code (e.g.: #FF0000 or #40E0D0).</rdfs:comment>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <rdfs:subPropertyOf rdf:resource="http://dbpedia.org/ontology/colourHexCode"/>
     <prov:wasDerivedFrom rdf:resource="http://mappings.dbpedia.org/index.php/OntologyProperty:homeColourHexCode"/>
@@ -27929,8 +27929,8 @@
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/millsCodeDutch">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">mill code NL</rdfs:label>
-    <rdfs:label xml:lang="nl">molen code NL</rdfs:label>
+    <rdfs:label xml:lang="en">mill kata.code NL</rdfs:label>
+    <rdfs:label xml:lang="nl">molen kata.code NL</rdfs:label>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Mill"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <prov:wasDerivedFrom rdf:resource="http://mappings.dbpedia.org/index.php/OntologyProperty:millsCodeDutch"/>
@@ -28529,7 +28529,7 @@
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/codeDistrict">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">City district code</rdfs:label>
+    <rdfs:label xml:lang="en">City district kata.code</rdfs:label>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/CityDistrict"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <prov:wasDerivedFrom rdf:resource="http://mappings.dbpedia.org/index.php/OntologyProperty:codeDistrict"/>
@@ -28931,10 +28931,10 @@
     <rdfs:label xml:lang="de">Vorwahl</rdfs:label>
     <rdfs:label xml:lang="ru">&#x43C;&#x435;&#x441;&#x442;&#x43D;&#x44B;&#x439; &#x442;&#x435;&#x43B;&#x435;&#x444;&#x43E;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x434;</rdfs:label>
     <rdfs:label xml:lang="sr">&#x43F;&#x43E;&#x437;&#x438;&#x432;&#x43D;&#x438; &#x431;&#x440;&#x43E;&#x458;</rdfs:label>
-    <rdfs:label xml:lang="en">area code</rdfs:label>
+    <rdfs:label xml:lang="en">area kata.code</rdfs:label>
     <rdfs:label xml:lang="nl">netnummer</rdfs:label>
     <rdfs:label xml:lang="el">&#x3BA;&#x3C9;&#x3B4;&#x3B9;&#x3BA;&#x3CC;&#x3C2;_&#x3C0;&#x3B5;&#x3C1;&#x3B9;&#x3BF;&#x3C7;&#x3AE;&#x3C2;</rdfs:label>
-    <rdfs:comment xml:lang="en">Area code for telephone numbers.</rdfs:comment>
+    <rdfs:comment xml:lang="en">Area kata.code for telephone numbers.</rdfs:comment>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/PopulatedPlace"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <owl:equivalentProperty rdf:resource="http://wikidata.dbpedia.org/resource/P473"/>
@@ -28965,8 +28965,8 @@
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://dbpedia.org/ontology/simcCode">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">SIMC code</rdfs:label>
-    <rdfs:comment xml:lang="en">indexing code used by the Polish National Official Register of the Territorial Division of the Country (TERYT) to identify various entities</rdfs:comment>
+    <rdfs:label xml:lang="en">SIMC kata.code</rdfs:label>
+    <rdfs:comment xml:lang="en">indexing kata.code used by the Polish National Official Register of the Territorial Division of the Country (TERYT) to identify various entities</rdfs:comment>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/PopulatedPlace"/>
     <rdfs:subPropertyOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isClassifiedBy"/>
     <prov:wasDerivedFrom rdf:resource="http://mappings.dbpedia.org/index.php/OntologyProperty:simcCode"/>
@@ -29011,7 +29011,7 @@
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/provCode">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">prove code</rdfs:label>
+    <rdfs:label xml:lang="en">prove kata.code</rdfs:label>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Settlement"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <prov:wasDerivedFrom rdf:resource="http://mappings.dbpedia.org/index.php/OntologyProperty:provCode"/>
@@ -29045,7 +29045,7 @@
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/dutchRKDCode">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">Dutch RKD code</rdfs:label>
+    <rdfs:label xml:lang="en">Dutch RKD kata.code</rdfs:label>
     <rdfs:label xml:lang="nl">Code Rijksbureau voor Kunsthistorische Documentatie</rdfs:label>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Artist"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -29663,7 +29663,7 @@
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/aitaCode">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">aita code</rdfs:label>
+    <rdfs:label xml:lang="en">aita kata.code</rdfs:label>
     <rdfs:label xml:lang="sr">AITA &#x43A;&#x43E;&#x434;</rdfs:label>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <prov:wasDerivedFrom rdf:resource="http://mappings.dbpedia.org/index.php/OntologyProperty:aitaCode"/>
@@ -29678,10 +29678,10 @@
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/millsCodeNL">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label xml:lang="en">mill code NL</rdfs:label>
-    <rdfs:label xml:lang="nl">molen code NL</rdfs:label>
-    <rdfs:comment xml:lang="en">mills code from the central Dutch database on mills</rdfs:comment>
-    <rdfs:comment xml:lang="nl">unieke code voor molens in www.molendatabase.nl</rdfs:comment>
+    <rdfs:label xml:lang="en">mill kata.code NL</rdfs:label>
+    <rdfs:label xml:lang="nl">molen kata.code NL</rdfs:label>
+    <rdfs:comment xml:lang="en">mills kata.code from the central Dutch database on mills</rdfs:comment>
+    <rdfs:comment xml:lang="nl">unieke kata.code voor molens in www.molendatabase.nl</rdfs:comment>
     <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Mill"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <prov:wasDerivedFrom rdf:resource="http://mappings.dbpedia.org/index.php/OntologyProperty:millsCodeNL"/>
