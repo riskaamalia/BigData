@@ -1,4 +1,4 @@
-import kata.code;
+import kata.Player;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -7,6 +7,17 @@ import static org.junit.Assert.assertEquals;
  * Created by 1224A on 8/16/2016.
  */
 public class codeTest {
+
+    private Player conversion = new Player();
+
+    @Test
+    public void shouldCovertToRoman() {
+        assertEquals("solution(1) should equal to I", "CMLXXXIV", conversion.solution(984));
+        assertEquals("solution(4) should equal to XCI", "XCIII", conversion.solution(93));
+        assertEquals("solution(6) should equal to VI", "IX", conversion.solution(9));
+//        1000=M, 900=CM, 90=XC; 2000=MM, 8=VIII. 1666 MDCLXVI.
+    }
+
     /*@Test
    public void Tests() {
         assertEquals("makeReadable(0)", "00:00:00", code.makeReadable(0));
@@ -16,13 +27,13 @@ public class codeTest {
         assertEquals("makeReadable(359999)", "99:59:59", code.makeReadable(359999));
     }*/
 
-    @Test
+   /* @Test
     public void Test() {
         assertEquals("Should return true", true, code.isValid(new char[] {'n','s','n','s','n','s','n','s','n','s'}));
         assertEquals("Should return false", false, code.isValid(new char[] {'w','e','w','e','w','e','w','e','w','e','w','e'}));
         assertEquals("Should return false", false, code.isValid(new char[] {'w'}));
         assertEquals("Should return false", false, code.isValid(new char[] {'n','n','n','s','n','s','n','s','n','s'}));
-    }
+    }*/
     /*@Test
     public void tests() {
         assertEquals("(123) 456-7890", kata.code.createPhoneNumber(new int[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 0}));
