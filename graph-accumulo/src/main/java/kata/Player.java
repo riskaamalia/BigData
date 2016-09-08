@@ -35,13 +35,14 @@ MCMXC 1990*/
 //XCI LXLI
         return romawi;
     }*/
-    public static int getCount(String str) {
-        int hitung = 0;
-        for (char a:str.toCharArray()) {
-            if (String.valueOf(a).equals("a") || String.valueOf(a).equals("i") || String.valueOf(a).equals("u") || String.valueOf(a).equals("e") || String.valueOf(a).equals("o"))
-                hitung++;
+    public static int nbYear(int p0, double percent, int aug, int p) {
+        int count =0;
+        while (p0 < p ) {
+            p0 = p0 + ( (int) (p0*(percent/100)) + aug );
+            count++;
         }
-        return hitung;
+
+        return count;
     }
 
 }

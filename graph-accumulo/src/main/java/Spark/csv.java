@@ -5,6 +5,7 @@ package Spark;
  */
 
 import au.com.bytecode.opencsv.CSVReader;
+import com.google.common.base.Stopwatch;
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
@@ -13,6 +14,7 @@ import org.apache.spark.api.java.function.Function;
 import java.io.StringReader;
 
 public class csv {
+    public static final Stopwatch timer = Stopwatch.createStarted();
 
     public static class ParseLine implements Function<String, String[]> {
         SparkConf conf = new SparkConf().setMaster("local").setAppName("riskacoba");
@@ -29,7 +31,8 @@ public class csv {
 
     public static void main (String [] args) throws Exception {
         ParseLine obj = new ParseLine();
-        obj.call("D:/mediatrac/DATA/jalan indonesia.csv");
+
+        obj.call("D:/mediatrac/DATA/kodepos.tsv");
     }
 
 }

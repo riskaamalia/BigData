@@ -10,12 +10,26 @@ public class codeTest {
 
     private Player conversion = new Player();
 
+/*
     @Test
     public void shouldCovertToRoman() {
-        assertEquals("solution(1) should equal to I", "CMLXXXIV", conversion.solution(984));
-        assertEquals("solution(4) should equal to XCI", "XCIII", conversion.solution(93));
-        assertEquals("solution(6) should equal to VI", "IX", conversion.solution(9));
+        assertEquals("nbYear(1) should equal to I", "CMLXXXIV", conversion.nbYear(984));
+        assertEquals("nbYear(4) should equal to XCI", "XCIII", conversion.nbYear(93));
+        assertEquals("nbYear(6) should equal to VI", "IX", conversion.nbYear(9));
 //        1000=M, 900=CM, 90=XC; 2000=MM, 8=VIII. 1666 MDCLXVI.
+    }
+*/
+
+    private static void testing(int actual, int expected) {
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void test1() {
+        System.out.println("Fixed Tests: nbYear");
+        testing(Player.nbYear(1500, 5, 100, 5000),15);
+        testing(Player.nbYear(1500000, 2.5, 10000, 2000000), 10);
+        testing(Player.nbYear(1500000, 0.25, 1000, 2000000), 94);
     }
 
     /*@Test
